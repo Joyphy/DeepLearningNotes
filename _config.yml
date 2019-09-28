@@ -8,12 +8,12 @@ defaults:
   - scope:
       path: "" # an empty string here means all necessary files are in the project
     values:
-      image: assets/img/triangle.png # seo tag
+      image: assets/img/photo.jpg # seo tag
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  avatar: assets/img/triangle.png
+  avatar: assets/img/photo.jpg
   color_image: /assets/img/lineart.png # In post when you set color
   favicon: assets/favicon.ico
 
@@ -27,8 +27,8 @@ theme_settings:
   excerpt: true # Or "truncate" (first 250 characters), "false" to disable
 
   # Icons
-  rss: true  # Make sure you created a feed.xml with feed.xml layout
-  email_address: # Full email address, e.g. "sam@example.com"
+  rss: false  # Make sure you created a feed.xml with feed.xml layout
+  email_address: 550638682@qq.com
   behance:
   bitbucket:
   dribbble:
@@ -53,12 +53,12 @@ theme_settings:
 
   # Sharing options
   share_buttons:
-    facebook: true
-    twitter: true
+    facebook: false
+    twitter: false
     tumblr:
     pinterest:
     pocket:
-    reddit: true
+    reddit: false
     linkedin:
     wordpress:
     email: true
@@ -78,8 +78,8 @@ theme_settings:
   str_pin_it: "Pin it"
   str_next_post: "Next post"
   str_previous_post: "Previous post"
-  str_next_page: "Next"
-  str_previous_page: "Prev"
+  str_next_page: "下一页"
+  str_previous_page: "上一页"
   str_javascript_required_disqus: "Please enable JavaScript to view comments."
 
   # Post navigation
