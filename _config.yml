@@ -8,12 +8,12 @@ defaults:
   - scope:
       path: "" # an empty string here means all necessary files are in the project
     values:
-      image: assets/img/photo.jpg # seo tag
+      image: assets/img/triangle.png # seo tag
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  avatar: assets/img/photo.jpg
+  avatar: assets/img/triangle.png
   color_image: /assets/img/lineart.png # In post when you set color
   favicon: assets/favicon.ico
 
